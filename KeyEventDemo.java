@@ -1,5 +1,5 @@
 package week16;
-
+//love
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.event.KeyAdapter;
@@ -67,9 +67,9 @@ public class KeyEventDemo extends JFrame {
 			g.drawString(String.valueOf(keyChar), x, y);
 			/*
 			 * public abstract void drawString(String
-			 * str, int x, int y) Ê¹ÓÃ´ËÍ¼ĞÎÉÏÏÂÎÄµÄµ±Ç°×ÖÌåºÍÑÕÉ«»æÖÆÓÉÖ¸¶¨
-			 * string ¸ø¶¨µÄÎÄ±¾¡£×î×ó²à×Ö·ûµÄ»ùÏßÎ»ÓÚ´ËÍ¼ĞÎÉÏÏÂÎÄ×ø±êÏµµÄ (x, y)
-			 * Î»ÖÃ´¦¡£
+			 * str, int x, int y) ä½¿ç”¨æ­¤å›¾å½¢ä¸Šä¸‹æ–‡çš„å½“å‰å­—ä½“å’Œé¢œè‰²ç»˜åˆ¶ç”±æŒ‡å®š
+			 * string ç»™å®šçš„æ–‡æœ¬ã€‚æœ€å·¦ä¾§å­—ç¬¦çš„åŸºçº¿ä½äºæ­¤å›¾å½¢ä¸Šä¸‹æ–‡åæ ‡ç³»çš„ (x, y)
+			 * ä½ç½®å¤„ã€‚
 			 */
 		}
 	}
