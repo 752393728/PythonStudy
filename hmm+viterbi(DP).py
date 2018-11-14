@@ -5,7 +5,7 @@
 import xlrd
 states = ['AT', 'BEZ','IN','NN','VB','PERIOD']
 obser_vals1 = ['BEAR', 'IS', 'MOVE','ON','THE','.']
-#错误示范，这里用的是贪心算法，正确应该使用动态规划。
+#错误示范，上次这里用的是贪心算法，正确应该使用动态规划。
 #11-14—>动态规划（22：33：20完成）
 # 状态转移矩阵
 Tr_p = {}
@@ -31,7 +31,7 @@ emission_p['IN'] = {}
 emission_p['NN'] ={}
 emission_p['VB'] = {}
 emission_p['PERIOD'] ={}
-ExcelFile=xlrd.open_workbook(r'C:\Users\87253\Desktop\TestData.xlsx')#从excel中获取
+ExcelFile=xlrd.open_workbook(r'C:\Users\*****\Desktop\TestData.xlsx')#从excel中获取
 sheet0 = ExcelFile.sheet_by_index(0)
 i=0
 for state in states:
