@@ -1,0 +1,6 @@
+lucene3.6
+jsp}
+web}
+注意：某些包notfound的话要放在M**INF-lib下，比如lucene的smartcn和queryparseE**
+还有一些调用java项目的方法。等
+2018-12-15
